@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+/* nav css Design */
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+
+}
+.menu li{
+    list-style: none;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size:20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.menu li a:hover{
+    color: white;
+    background-color: #f52c2c;
+    border-radius: 5px;
+    
+
+
+}
+
+/* Banner Section */
+.banner{
+    background-image:url(../asset/image/background.jpg) , linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.356));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner_details h1{
+    font-weight: 900;
+    font-size: 90px;
+    color: white;
+    
+}
+.banner_details p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+h1 span{
+    color: #f52c2c;
+}
+
+.primary_btn{
+    background-color: #f52c2c;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.hire_btn{
+    background-color: #f0f0f0;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 20px;
+}
